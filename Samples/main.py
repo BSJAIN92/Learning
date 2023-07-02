@@ -16,15 +16,27 @@ def basics(function_to_run, input_set):
             try:
                 return print(int(input_set))
             except:
-                print("Incorrect value")
+                print("Incorrect value", input_set)
                 quit()
 
         case "max":
-            print(function_to_run)
+            print(max(input_set))
+
+        case "min":
+            print(min(input_set))
+
+        case "type":
+            print(type(input_set))
+
+        case "while_countdown":
+            i = input_set
+            while i > 0:
+                print(i)
+                i = i - 1
 
 
 if __name__ == '__main__':
     print_hi('PyCharm')
 
-    function_name = input('Tell me you want string to int ')
-    basics(function_name, "one")
+    function_name = input('What function do you want to run??? ')
+    basics(function_name, 5)
