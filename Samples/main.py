@@ -25,9 +25,6 @@ def basics(function_to_run, input_set):
 
 if __name__ == '__main__':
     print_hi('PyCharm')
-    # basics("printing", ["testing", "tester"])
-    # basics("addition", [5, 1])
-    # basics("str_to_int", 0)
 
     function_name = input('Tell me you want string to int ')
     basics(function_name, "one")
