@@ -9,6 +9,6 @@ def print_hi(name):
 if __name__ == '__main__':
     print_hi('PyCharm')
 
-    # function_name = input('What function do you want to run??? ')
+    # function_name = input('What string ops function do you want to run??? ')
     # Samples.string_ops.basics(function_name, 5)
     Samples.file_ops.open_file()
